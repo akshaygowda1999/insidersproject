@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="carousel.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-light bg-light"
+      style="height: 20%; font-size: larger;"
+    >
+      <a
+        class="navbar-brand"
+        href="#"
+        style="font-size: 26px; margin-right: 0px !important;"
+        >IN<span style="color: rgb(62, 194, 139);">SIDE</span>RS</a
+      >
+      <img src="img/logo.png" height="26px" />
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#designcar">Designs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Areas
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Bedroom</a>
+              <a class="dropdown-item" href="#">Living Room</a>
+              <a class="dropdown-item" href="#">Kitchen</a>
+              <a class="dropdown-item" href="#">Cafe</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-page">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- nav end -->
+
+    <!-- section banner-wrapper start -->
+    <div class="banner-wrapper">
+      <div class="heading">
+        <h2 style="font-size: 30px; font-weight: 700; color: #d2d2d2c7;">
+          Are you looking for the
+          <span style="color: rgb(163 218 34 / 72%);">Unexpected?</span>
+        </h2>
+      </div>
+    </div>
+
+    <!-- carousel section -->
+
+    <div class="designs" id="designcar">
+      <h1 class="text">Some of our most loved designs.</h1>
+      <h3 class="designsubheading">What are you waiting for? HOP ON!</h3>
+
+      <section class="carousel" aria-label="Gallery">
+        <ol class="carousel__viewport">
+          <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper">
+              <a href="#carousel__slide4" class="carousel__prev"
+                >Go to last slide</a
+              >
+              <a href="#carousel__slide2" class="carousel__next"
+                >Go to next slide</a
+              >
+            </div>
+          </li>
+          <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide1" class="carousel__prev"
+              >Go to previous slide</a
+            >
+            <a href="#carousel__slide3" class="carousel__next"
+              >Go to next slide</a
+            >
+          </li>
+          <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide2" class="carousel__prev"
+              >Go to previous slide</a
+            >
+            <a href="#carousel__slide4" class="carousel__next"
+              >Go to next slide</a
+            >
+          </li>
+          <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide3" class="carousel__prev"
+              >Go to previous slide</a
+            >
+            <a href="#carousel__slide1" class="carousel__next"
+              >Go to first slide</a
+            >
+          </li>
+        </ol>
+        <aside class="carousel__navigation">
+          <ol class="carousel__navigation-list">
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide1" class="carousel__navigation-button"
+                >Go to slide 1</a
+              >
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide2" class="carousel__navigation-button"
+                >Go to slide 2</a
+              >
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide3" class="carousel__navigation-button"
+                >Go to slide 3</a
+              >
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide4" class="carousel__navigation-button"
+                >Go to slide 4</a
+              >
+            </li>
+          </ol>
+        </aside>
+      </section>
+    </div>
+
+
+<!-- code for contactus -->
+
+<br><hr>
+<div class="row"  id="contact-page">
+  <div class="col-lg-3 col-sm-3 col-6">
+    <div class="section-1">
+      <div class="section-img">
+        <img src="img/personalized-designs.png" class="img-fluid lazyload">
+      </div>
+      <div class="section-text">Personalized designs</div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-sm-3 col-6">
+    <div class="section-1">
+      <div class="section-img">
+        <img src="img/home-interior-space-saving-solutions.png" class="img-fluid lazyload">
+      </div>
+      <div class="section-text">20% EXTRA Storage</div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-sm-3 col-6">
+    <div class="section-1">
+      <div class="section-img">
+        <img src="img/best-emi.png" calss="img-fluid lazyload">
+      </div>
+      <div class="section-text">Best EMIs</div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-sm-3 col-6">
+    <div class="section-1">
+      <div class="section-img">
+
+
+        <img src="img/home-interiors-warranty.png" calss="img-fluid lazyload">
+      </div>
+      <div class="section-text">10 Years Warranty</div>
+    </div>
+  </div>
+</div>
+
+<h1 class="contact-class">contact us</h1>
+<p class="contact-intro1">Interested in interior design services?</p>
+<p class="contact-intro2"> Please send us your contact information and the best time to contact you. Our initial interior design consultation is free, 
+  at no risk and no hassle. Or simply call us for an appointment to discuss your interior design project. Don’t forget to sign up as well.</p>
+<br>
+<div class="row">
+<div class="row1 column customer-support">
+  <div class="column1">
+  <h3>Customer Support</h3>
+  <p class="abc">Mail</p>
+  <p class="info">care@insiders.com</p>
+  <p class="abc">Timings</p>
+  <p class="info">10 Am to 7 PM(weekdays)</p>
+  <p class="abc">call</p>
+  <p class="info">+91 9390 897 777</p>
+  <h3>For Designers</h3>
+  <p class="abc">Are you a designer?</p>
+  <p class="info">designer@insiders.com</p>
+  <h3>For Careers</h3>
+  <p class="abc">Career opportunities</p>
+  <p class="info">careers@insideers.com</p> 
+  </div>
+  <div class="column1">
+  <h3>For General Info</h3>
+  <p class="abc">General queries & partnerships</p>
+  <p class="info">info@insiders.com</p>
+  <h3>Press Opportunities</h3>
+  <p class="abc">Media Queries</p>
+  <p class="info">press@insiders.com</p>
+</div>
+</div>
+
+<div class=" column form">
+  <br>
+  <h1 class="form-text"> Talk to a designer</h1><br>
+  <form action="POST" id="theForm" method="" onsubmit="return validateTextBox();">
+   
+    <input type="text" id="name" placeholder="Enter name" name="name"><br><br>
+    
+    <input type="number" id="contact" placeholder="Enter contact number" name="contact"><br><br>
+    
+    <input type="email" id="email" placeholder="Enter email" name="email"><br><br>
+    
+    <textarea rows="5" cols="30" placeholder="Enter your message"></textarea><br><br>
+    <label><input type="checkbox" name="remember"> Remember me</label>
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    
+    <!--javascript for form validation-->
+    <script>
+    function validateTextBox(){
+      var box1 = document.getElementById("name");
+      var box2 = document.getElementById("email");
+      var a=document.getElementById("contact");
+      var x=document.getElementById("message");
+      if(box1.value==""){
+        alert("name cannot be blank");
+        box1.focus();
+        box1.style.border="solid 1px red";
+        return false;
+      }
+      if(box2.value==""){
+        alert(" email cannot be blank");
+        box2.focus();
+        box2.style.border="solid 1px red";
+        return false;
+      }
+      
+      if(a.value==""){
+        alert("contact number cannot be blank");
+        a.focus();
+        a.style.border="solid 1px red";
+        return false;
+      }
+      if(x.value==""){
+        alert("message should be required");
+        return false;
+      }
+      
+    }
+  </script>
+
+  </body>
+  <a href="/view-feedbacks">view feeddbacks</a>
+</html>
