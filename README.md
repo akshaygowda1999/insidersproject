@@ -13,3 +13,9 @@ interior12
 
 
 
+#link of mongodb
+
+"mongodb://localhost:27017/interior12"
+
+
+
